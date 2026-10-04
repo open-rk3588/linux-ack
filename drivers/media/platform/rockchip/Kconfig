@@ -2,7 +2,10 @@
 
 comment "Rockchip media platform drivers"
 
+source "drivers/media/platform/rockchip/mpp/Kconfig"
+source "drivers/media/platform/rockchip/mpp_osal/Kconfig"
 source "drivers/media/platform/rockchip/rga/Kconfig"
 source "drivers/media/platform/rockchip/rkcif/Kconfig"
 source "drivers/media/platform/rockchip/rkisp1/Kconfig"
+source "drivers/media/platform/rockchip/rkrga3/Kconfig"
 source "drivers/media/platform/rockchip/rkvdec/Kconfig"
